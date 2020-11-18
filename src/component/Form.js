@@ -60,7 +60,8 @@ const Form = () => {
         </Select>
       </div>
       <div className="button-wrap">
-        <Button onClick={handleConvert} variant="contained" color="primary">Convert</Button>
+        <Button onClick={handleConvert} variant="contained" color="primary"
+          disabled={!_isEmpty(inputAmount) && !_isEmpty(inputCurrency) && !_isEmpty(outputCurrency) ? false : true}>Convert</Button>
       </div>
       <div className="output-wrap">
         <Label className="label">Output Amount</Label>
