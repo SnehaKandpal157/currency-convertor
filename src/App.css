@@ -69,6 +69,7 @@ body{
     width: auto;
     height: 550px;
     border: none;
+    padding:0;
 }
 
 .header-wrap {
