@@ -35,8 +35,8 @@ body{
   justify-content: space-evenly;
   width: 225px;
   padding: 20px 50px;
-  border: 1px solid silver;
-  box-shadow: 2px 2px silver;
+  border: 1px solid #d3d2d2;
+  box-shadow: 2px 2px #e3e1e1;
 }
 
 .output-wrap {
@@ -46,8 +46,8 @@ body{
   justify-content: space-evenly;
   width: 225px;
   padding: 20px 50px;
-  border: 1px solid silver;
-  box-shadow: 2px 2px silver;
+  border: 1px solid #d3d2d2;
+  box-shadow: 2px 2px #e3e1e1;
 }
 
 .input{

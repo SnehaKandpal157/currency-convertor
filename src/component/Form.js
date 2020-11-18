@@ -41,6 +41,7 @@ const Form = () => {
         <Label className="label">Input Amount</Label>
         <Input
           type="number"
+          min={1}
           onChange={handleInputChange}
           name="inputAmount"
           value={inputAmount}
